@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+:root{
+    --fonte-principal: 'Pacifico', cursive;
+}
+
+.fonte-titulo{
+    font-family: var(--fonte-principal);
+}
+
+.imagem-corrossel-um{
+    height: 400px;
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.imagem-corrossel-dois{
+    height: 400px;
+    object-fit: cover;
+}
+
+.cor-especial{
+    color: darkred;
+}
