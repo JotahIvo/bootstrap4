@@ -4,6 +4,10 @@
     --fonte-principal: 'Pacifico', cursive;
 }
 
+.card-largura{
+    max-width: 18rem;
+}
+
 .fonte-titulo{
     font-family: var(--fonte-principal);
 }
@@ -21,4 +25,26 @@
 
 .cor-especial{
     color: darkred;
+}
+
+.botao-cor-especial{
+    background-color: darkred;
+    border-color: darkred;
+    color: white;
+    transition: .5s all;
+}
+
+.botao-cor-especial:hover{
+    background-color: transparent;
+    border: solid 1px darkred;
+    color: darkred;
+}
+
+.borda-card{
+    border-color: darkred;
+}
+
+.imagem-card{
+    height: 200px;
+    object-fit: cover;
 }
